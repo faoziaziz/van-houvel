@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = 'http://149.129.253.172/trumon';
+$config['base_url'] = 'http://35.244.70.118'; //'http://taxmonitor.tebingtinggikota.go.id';
 
 
 $config['index_page'] = 'index.php';
