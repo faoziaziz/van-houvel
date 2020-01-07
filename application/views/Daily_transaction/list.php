@@ -11,7 +11,7 @@
     </ol>
     <!-- end breadcrumb -->
     <!-- begin page-header -->
-    <h1 class="page-header">Badan Keuangan Daerah</h1>
+    <h1 class="page-header">TAXSENSE</h1>
     <!-- end page-header -->
     <!-- begin row -->
 

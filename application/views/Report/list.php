@@ -40,7 +40,7 @@
 							<div class="col-md-5">
 								<?php echo cmb_activity3('ddTenant','Tenant','Tenant','flag', null,"id='ddTenant'") ?> 
 							</div>    
-							<label class="col-md-1 control-label" for="form-field-1">Perjenis Penjualan</label>
+							<label class="col-md-1 control-label" for="form-field-1">type of sale</label>
                             <div class="col-md-5">
 								<?php echo cmb_activity4('ddJnsPnjualan','Tenant','JenisPenjualan','JenisPenjualan', null,"id='ddJnsPnjualan'") ?> 
                             </div>
@@ -51,10 +51,10 @@
 							<div class="col-md-5">
 								<?php echo cmb_activity('wp','Tenant','Tenant','DeviceId', null,"id='datawp1'") ?> 
 							</div>    
-							<label class="col-md-1 control-label" for="form-field-1">Jenis</label>
+							<label class="col-md-1 control-label" for="form-field-1">Type</label>
                             <div class="col-md-5">
 								<select name="txtjenis" id="jenis" onchange="chk()"  class="form-control" required>
-									<option selected="selected" disabled>jenis</option>
+									<option selected="selected" disabled>Type</option>
 									<option value="0">Monthly</option>
 									<option value="1">Daily</option>
 								</select>
@@ -66,11 +66,11 @@
 							
                         </div>
 						<div class="form-group">
-							<label class="col-md-1 control-label" for="form-field-1">Tanggal Awal</label>
+							<label class="col-md-1 control-label" for="form-field-1">Start Date</label>
                             <div class="col-md-5">
 								<input id="dt1" name="txtdt1"  class="month-year-input form-control" autocomplete="off">
                             </div>
-							<label class="col-md-1 control-label" for="form-field-1" >Tanggal Akhir</label>
+							<label class="col-md-1 control-label" for="form-field-1" >End Date</label>
                             <div class="col-md-5">
 								<input id="dt2" name="txtdt2"  class="month-year-input form-control" autocomplete="off">
                             </div>  
@@ -79,7 +79,7 @@
 						<div class="form-group">
                             <div class="col-md-5">
 								<div class="checkbox">
-									<label><input type="checkbox" id="chkBoxCompare" value="">Bandingkan</label>
+									<label><input type="checkbox" id="chkBoxCompare" value="">Compare</label>
 								</div>
                             </div>
 						</div>

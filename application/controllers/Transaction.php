@@ -142,7 +142,7 @@ Class Transaction extends CI_Controller{
 		}
 		$sql="SELECT a.DeviceId, a.date,sum(a.total1) as total,sum(a.amount) as amount,sum(a.Discount) as Discount
 			FROM(
-				SELECT distinct Nomor, date(FileTime)as date, DeviceId,if(nilai like '%,%',replace(nilai,',',''),replace(nilai,'.',''))as amount ,if(nilaidanpajak like '%,%',replace(nilaidanpajak,',',''),replace(nilaidanpajak,'.',''))as total1,if(CustomField2 like '%,%',replace(CustomField2,',',''),replace(CustomField2,'.',''))as Discount
+				SELECT distinct Nomor, date(FileTime)as date, DeviceId,if(nilai like '%,%',replace(nilai,',',''),replace(nilai,':',''))as amount ,if(nilaidanpajak like '%,%',replace(nilaidanpajak,',',''),replace(nilaidanpajak,'.',''))as total1,if(CustomField2 like '%,%',replace(CustomField2,',',''),replace(CustomField2,'.',''))as Discount
 				FROM Transaksi WHERE DeviceId='$wp' AND ((MONTH(FileTime)='$bln') AND (YEAR(FileTime)='$thn')) $no) as a GROUP BY  a.DeviceId,a.date";
 		$detail = $this->db->query($sql)->result();
 		
@@ -681,10 +681,10 @@ Class Transaction extends CI_Controller{
 				 ->setCellValue('C1','Date')
 				 ->setCellValue('D1','Nomor')
 				 ->setCellValue('E1','Amount')
-				 ->setCellValue('F1','pajak')
+				 ->setCellValue('F1','Tax')
 				 ->setCellValue('G1','Total')
-				 ->setCellValue('H1','Ket')
-				 ->setCellValue('I1','Diskon')
+				 ->setCellValue('H1','Notes')
+				 ->setCellValue('I1','Discount')
 				 ->setCellValue('J1','Net Sales');
 				
 			

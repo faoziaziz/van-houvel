@@ -5,7 +5,7 @@
 	<title>Dashboard | Trumon</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
-	<meta content="" name="author" />
+	<meta content="Tax sense" name="author" />
 	
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 	
@@ -62,7 +62,7 @@
 				<!-- begin mobile sidebar expand / collapse button -->
 				<div class="navbar-header">
 					<!-- <a href="<?php echo site_url('Welcome');?>" class="navbar-brand"></span> BPKPAD Kota Tebing Tinggi </a> -->
-					<a href="#" class="navbar-brand"></span> BPKPAD Kabupaten Simalungun </a>
+					<a href="#" class="navbar-brand"></span> Taxsense Tax Monitoring </a>
 					<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -100,7 +100,7 @@
 					<li class="nav-profile">
 						<div class="image">
 							<!-- <a href="javascript:;"><img src="<?php echo base_url() ."uploads/" ?><?php echo $this->session->userdata('foto') ?> " alt="" /></a> -->
-							<a href="javascript:;"><img src="<?php echo base_url() ."uploads/logo_simalungun.jpg" ?>" alt="" /></a>
+							<a href="javascript:;"><img src="<?php echo base_url() ."uploads/taxsense.png" ?>" alt="" /></a>
 						</div>
 						<div class="info">
 							<?php echo $this->session->userdata('nama_lengkap') ?>

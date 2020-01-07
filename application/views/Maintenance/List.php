@@ -68,14 +68,14 @@
                                       <td><?php echo cmb_activity('datawp','Tenant','Tenant','DeviceId', null,"id='datawp1'") ?> </td>
                                       <td>Jenis</td>
                                       <td><select name="txtjenis" id="jenis" onchange="chk()"  class="form-control ">
-                                                   <option selected="selected">jenis</option>
+                                                   <option selected="selected">Type</option>
                                                       <option value="0">Monthly</option>
                                                       <option value="1">Daily</option>
                                           </select>
                                       </td>
-                                       <td><label>Tanggal Awal</label></td>
+                                       <td><label>Start Date</label></td>
                                       <td><input id="dt1" name="txtdt1"  class="month-year-input form-control"></td>
-                                      <td><label>Tanggal akhir</label></td>
+                                      <td><label>End Date</label></td>
                                       <td><input id="dt2" name="txtdt2"  class="month-year-input form-control"></td>
                                       <td><button id="btn-filter" type="button" class="btn btn-success">Submit</button> </td>
                                       </tr>
@@ -86,12 +86,12 @@
                                     <thead>
                                         <tr>
                                                <th>No</th>
-                                                <th>Tanggal</th>
-                                                <th>Jam</th>
+                                                <th>Date</th>
+                                                <th>Hour</th>
                                                 <th>Device Id</th>
-                                                 <th>Nama Wajib Pajak</th>
-                                                <th>Masalah</th>
-                                                <th>Tindakan</th>
+                                                 <th>Taxpayer name</th>
+                                                <th>Problem</th>
+                                                <th>Action</th>
                                                  <th>Status</th>
                                                
                                             </tr>
@@ -133,7 +133,7 @@
                         
                     </div>
                       <div class="form-group">
-                        <label class="col-sm-2 control-label" for="form-field-1">Tanggal</label>
+                        <label class="col-sm-2 control-label" for="form-field-1">Date</label>
                         <div class="col-sm-10">
                             <input type="date" id="tanggal" class="form-control" name="txtTanggal"/>
                         </div>
@@ -148,7 +148,7 @@
                         <span class="help-block"></span>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label" for="form-field-1">Tindakan</label>
+                        <label class="col-sm-2 control-label" for="form-field-1">Action</label>
                         <div class="col-sm-10">
                             <input type="text" id="form-field-1" class="form-control" name="txtTindakan"/>
                         </div>
@@ -159,7 +159,7 @@
                         <div class="col-sm-10">
                               <select name="txtStatus" class="form-control">
                                 <option value="pending">pending</option>
-                                <option value="selesai">Selesai</option>
+                                <option value="selesai">Done</option>
                            </select>
                         </div>
                         <span class="help-block"></span>

@@ -16,7 +16,7 @@
 					<div class="widget widget-stats bg-green">
 						<div class="stats-icon"><i class="fa fa-desktop"></i></div>
 						<div class="stats-info">
-							<h4>Wajib Pajak</h4>
+							<h4>Tax Payer</h4>
 							<p><?php echo $devices; ?></p>	
 						</div>
 						<div class="stats-link">
@@ -30,7 +30,7 @@
 					<div class="widget widget-stats bg-blue">
 						<div class="stats-icon"><i class="fa fa-money"></i></div>
 						<div class="stats-info">
-							<h4>Transaksi Bulan Ini</h4>
+							<h4>This Month's Transaction</h4>
 							<script type="text/javascript">
 							    var auto_refresh = setInterval(
 							    function () {
@@ -51,7 +51,7 @@
 					<div class="widget widget-stats bg-purple">
 						<div class="stats-icon"><i class="fa fa-money"></i></div>
 						<div class="stats-info">
-							<h4>Transaksi Hari Ini</h4>
+							<h4>This Day's Transaction</h4>
 							<script type="text/javascript">
 							    var auto_refresh = setInterval(
 							    function () {
@@ -245,7 +245,7 @@
 					}
 				},
 				title: {
-					text: 'Report Statistik Pendapatan Bulan Ini',
+					text: 'This Month\'s Income Statistics Report',
 					style: {
 							fontSize: '18px',
 							fontFamily: 'Verdana, sans-serif'
@@ -315,7 +315,7 @@
 					}
 				},
 				title: {
-					text: 'Report Statistik Pendapatan Tiap Bulan',
+					text: 'Monthly Income Statistics Report',
 					style: {
 							fontSize: '18px',
 							fontFamily: 'Verdana, sans-serif'
@@ -399,7 +399,7 @@
 					type: 'pie'
 				},
 				title: {
-					text: 'Pendapatan Divais Tahun Ini',
+					text: 'Device Income This Year',
 					style: {
 							fontSize: '18px',
 							fontFamily: 'Verdana, sans-serif'
@@ -421,7 +421,7 @@
 			  
 				  
 				series: [{
-				   name:'Pendapatan : ',
+				   name:'Income : ',
 					data: [
 						<?php
 							if(count($revenue_device)>0){
