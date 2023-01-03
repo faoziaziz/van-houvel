@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = 'http://35.244.70.118'; //'http://taxmonitor.tebingtinggikota.go.id';
+$config['base_url'] = 'http://git.prasimax.net'; //'http://taxmonitor.tebingtinggikota.go.id';
 
 
 $config['index_page'] = 'index.php';
